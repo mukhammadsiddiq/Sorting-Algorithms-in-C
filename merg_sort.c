@@ -60,14 +60,9 @@ void merge_sorted_list(int a[], int l, int m, int r)
         }
         else
         {
-            a[k] = temp_right[j];
+            a[k] = temp_right[j]; // copying from temp_right
             j++;
         }
         
     }
-    
-
-
-
-
 }
